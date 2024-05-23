@@ -1,0 +1,118 @@
+body {
+    background-color: #FFF1E9;
+}
+
+body.home {
+    background-color: #FFF1E9;
+    background-image: url(imgs/diamond.svg);
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+p {
+    font-family: 'Rowdies', sans-serif;
+    color: #003C4B;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: 'Concert One', sans-serif;
+    color: #003C4B;
+}
+
+h2 {
+    font-family: 'Concert One', sans-serif;
+    color: #003C4B;
+}
+
+.logo {
+    width: 30%;
+}
+
+.project-thumbs img{
+    width: 90%;
+    margin: 5px auto 5px auto;
+    border-radius: 10px;
+}
+
+.project-thumbs:hover .project-thumbs a:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.project-thumbs {
+    text-align: center;
+}
+
+.mockups {
+    text-align: center;
+}
+
+.mockups img {
+    width: 90%;
+}
+
+.descriptions {
+    text-align: center;
+    margin: auto;
+    width: 700px;
+}
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(#5fbdbb00, #5FBDBC);
+    padding: 100px 0 100px 0;
+    margin: -20px;
+}
+
+p:link p:after p:before{
+    font-family: 'Rowdies', sans-serif;
+    color: #003C4B;
+    text-decoration: none;
+}
+
+.back-arrow img {
+    width: 60px;
+}
+
+.pdf {
+    text-align: center;
+    margin: auto;
+}
+
+.links p {
+    color: #FFF1E9;
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+    .project-thumbs {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        margin: auto;
+    }
+
+    /* .project-thumbs img {
+        width: 40%;
+    } */
+}
