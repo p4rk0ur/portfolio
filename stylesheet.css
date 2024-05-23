@@ -112,6 +112,13 @@ p:link p:after p:before{
         margin: auto;
     }
 
+@media (max-width: 600px) {
+    .links p {
+        padding: 5px;
+        font-size: small;
+    }
+}
+
     /* .project-thumbs img {
         width: 40%;
     } */
