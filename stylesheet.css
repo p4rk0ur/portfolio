@@ -69,8 +69,8 @@ a:hover {
 footer {
     text-align: center;
     background-image: linear-gradient(#5fbdbb00, #5FBDBC);
-    padding: 100px 0 100px 0;
-    margin: -20px;
+    padding: 110px 0 110px 0;
+    margin: -30px;
 }
 
 p:link p:after p:before{
