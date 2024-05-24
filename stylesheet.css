@@ -4,7 +4,7 @@ body {
 
 body.home {
     background-color: #FFF1E9;
-    background-image: url(diamond.svg);
+    background-image: url(diamond-mobile.svg);
     background-repeat: no-repeat;
 }
 
@@ -31,7 +31,7 @@ h2 {
 }
 
 .logo {
-    width: 30%;
+    width: 40%;
 }
 
 .project-thumbs img{
@@ -96,7 +96,8 @@ p:link p:after p:before{
 .links {
     display: flex;
     flex-direction: row;
-    align-self: flex-start;
+    justify-items: flex-end;
+    align-self: flex-start
 }
 
 .links a {
@@ -112,18 +113,15 @@ p:link p:after p:before{
         margin: auto;
     }
 
-@media (max-width: 600px) {
-    .links p {
-        padding: 5px;
-        font-size: small;
-    }
-
-    body.home {
+body.home {
         background-color: #FFF1E9;
-        background-image: url(diamond-mobile.svg);
+        background-image: url(imgs/diamond.svg);
         background-repeat: no-repeat;
     }
-}
+
+    .logo {
+        size: 30%
+    }
 
     /* .project-thumbs img {
         width: 40%;
